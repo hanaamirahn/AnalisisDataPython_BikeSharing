@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-day_df = pd.read_csv("/content/day_clean.csv")
+day_df = pd.read_csv("dashboard/day_clean.csv")
 
 # Sidebar untuk pemilihan filter
 st.sidebar.header("Filter Data")
